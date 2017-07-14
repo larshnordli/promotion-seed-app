@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from './header/Container';
-import Team from './team/Container';
+import HeaderContainer from './header/HeaderContainer';
+import TeamContainer from './team/TeamContainer';
 import sections from '*/content/content-and-order';
 
 export default class App extends React.Component {
@@ -15,13 +15,13 @@ export default class App extends React.Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          {this.state.sections.map((s,i) => {
+          {this.state.sections.map((s, i) => {
             switch (s.type) {
               case "header":
-                return <Header key={i} headline={s.headline} text={s.text}/>
+                return <HeaderContainer key={i} headline={s.headline} text={s.text} imageUrl={s.imageUrl}/>
                 break;
               case "introSection":
-                return <Team key={i} headline={s.headline} text={s.text}/>
+                return <TeamContainer key={i} headline={s.headline} text={s.text} imageUrl={s.imageUrl}/>
                 break;
             }
           })
