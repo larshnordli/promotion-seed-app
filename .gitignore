@@ -1,5 +1,5 @@
 #Distribution Folder
-./build
+build/
 
 # Logs
 logs
