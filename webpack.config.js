@@ -23,6 +23,11 @@ module.exports = {
           //resolve-url-loader may be chained before sass-loader if necessary
           use: ['css-loader', 'sass-loader']
         })
+      }, {
+        test: /\.(jpg|jpeg|gif|png)$/,
+        include: __dirname + '/src/media',
+        exclude: /node_modules/,
+        loader: 'url-loader?limit=1024&name=images/[name].[ext]'
       }
     ]
   },
@@ -33,8 +38,5 @@ module.exports = {
   // sassLoader: {
   //     includePaths: ['src/styles/main']
   // },
-  plugins: [
-    HTMLWebpackPluginConfig,
-    new ExtractTextPlugin('main.css')
-  ]
+  plugins: [HTMLWebpackPluginConfig, new ExtractTextPlugin('main.css')]
 };
