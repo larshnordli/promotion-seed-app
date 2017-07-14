@@ -9754,14 +9754,21 @@ module.exports = getHostComponentFromComposite;
 
 /***/ }),
 /* 82 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_App__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_main_scss__);
 /*ReactDOM.render() here*/
 const React = __webpack_require__(49);
 const ReactDOM = __webpack_require__(98);
-const App = __webpack_require__(184);
 
-ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
+
+
+
+ReactDOM.render(React.createElement(__WEBPACK_IMPORTED_MODULE_0__components_App__["a" /* default */], null), document.getElementById('app'));
 
 /***/ }),
 /* 83 */
@@ -22394,7 +22401,6 @@ module.exports = ReactDOMInvalidARIAHook;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
@@ -22403,7 +22409,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "div",
-      { "class": "components" },
+      { className: "components" },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "h1",
         null,
@@ -22412,8 +22418,15 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     );
   }
 }
-/* harmony export (immutable) */ __webpack_exports__["default"] = App;
+/* harmony export (immutable) */ __webpack_exports__["a"] = App;
 
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=transformed.js.map
