@@ -4,7 +4,8 @@ export default class Container extends React.Component {
   render() {
     return (
       <div className="col-md-6">
-        <h1>hello from team</h1>
+        <h2>{this.props.headline}</h2>
+        <div dangerouslySetInnerHTML={ {__html: this.props.text} }></div>
       </div>
     )
   }
