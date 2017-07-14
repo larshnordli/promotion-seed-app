@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/larshnordli/promotion-seed-app#readme",
   "dependencies": {
+    "babel-plugin-root-import": "^5.1.0",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^3.0.0",
     "node-sass": "^4.5.3",

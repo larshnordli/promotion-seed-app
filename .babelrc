@@ -1,1 +1,15 @@
-{presets: ['react']}
+{
+  presets: ['react'],
+  "plugins": [
+    [
+      "babel-plugin-root-import", [{
+          "rootPathPrefix": "~"
+        },
+        {
+          "rootPathPrefix": "*",
+          "rootPathSuffix": "src"
+        }
+      ]
+    ]
+  ]
+}
