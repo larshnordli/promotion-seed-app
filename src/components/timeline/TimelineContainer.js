@@ -11,7 +11,10 @@ export default class TimelineContainer extends React.Component {
               <h2>{t.title}</h2>
               {t.phase.map((p, i) => {
                 return (
-                  <div dangerouslySetInnerHTML={ {__html: p.title} }></div>
+                  <div>
+                    <div dangerouslySetInnerHTML={ {__html: p.title} }></div>
+                    <p>{p.description}</p>
+                  </div>
                 )
               })}
             </div>
