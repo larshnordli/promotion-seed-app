@@ -3,6 +3,7 @@ import React from 'react';
 import HeaderContainer from './header/HeaderContainer';
 import TeamContainer from './team/TeamContainer';
 import sections from '*/content/content-and-order';
+import TimelineContainer from './timeline/TimelineContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -25,6 +26,9 @@ export default class App extends React.Component {
                 break;
               case "header":
                 return <TeamContainer key={i} team={s.team} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)} />
+                break;
+              case "timeline":
+                return <TimelineContainer key={i} phases={s.phases}/>
                 break;
             }
           })

@@ -7,7 +7,6 @@ export default class TeamMember extends React.Component {
         <img className="img-responsive" src={this.props.img}></img>
         <p>{this.props.name}</p>
         <p>{this.props.title}</p>
-
       </div>
     )
   }

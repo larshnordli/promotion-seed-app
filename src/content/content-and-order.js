@@ -50,6 +50,36 @@ var sections = [
 
       }
     ]
+  }, {
+    type: "timeline",
+    headline: "timeline",
+    text: " <strong>ACIT Cloud Studio's</strong> Prototype for Leonard Chesire Disability extended",
+    imageUrl: "maxresdefault.jpg",
+    phases: [
+      {
+        title: "Phase 1: 4 weeks",
+        phase: [
+          {
+            title: "<strong>Week 1</strong> Design Thinking Workshop in London",
+            description: "Initial creative workshop in London, UK, to ideate on concept and define scope. Attendees from LCD UK and India, as well as Accenture Corporate Citizenship and ACIT Cloud Studio"
+          }, {
+            title: "<strong>Week 1</strong> Low Fidelity Prototyping",
+            description: "Refined concepts from the initial workshop, creating and iterating paper & digital wireframes."
+          }
+        ]
+      }, {
+        title: "Phase 2: 4 additional weeks",
+        phased: [
+          {
+            title: "<strong>Week 5</strong> Virtual design thinking WS",
+            description: "Online workshop with key stakeholders to align on scope for the second phase, and determine foucus areas."
+          }, {
+            title: "<strong>Week 5</strong> Refine Design & Content",
+            description: "Refined solution based on findings and feedback from the frist phase. New iterataions on design and user experience."
+          }
+        ]
+      }
+    ]
   }
 ]
 
