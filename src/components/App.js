@@ -11,6 +11,9 @@ export default class App extends React.Component {
       sections: sections
     }
   }
+  getImage(url){
+    return require('../media/images/'+url);
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -18,10 +21,10 @@ export default class App extends React.Component {
           {this.state.sections.map((s, i) => {
             switch (s.type) {
               case "header":
-                return <HeaderContainer key={i} headline={s.headline} text={s.text} imageUrl={s.imageUrl}/>
+                return <HeaderContainer key={i} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
                 break;
               case "introSection":
-                return <TeamContainer key={i} headline={s.headline} text={s.text} imageUrl={s.imageUrl}/>
+                return <TeamContainer key={i} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
                 break;
             }
           })
