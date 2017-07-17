@@ -9,7 +9,7 @@ export default class Header extends React.Component {
       <div className="col-md-6">
         <h1>{this.props.headline}</h1>
         <div dangerouslySetInnerHTML={ {__html: this.props.text} }></div>
-        <img className="img-responsive" src={this.props.imageUrl}></img>
+        <img className="img-responsive" src={require(`../../media/images/maxresdefault.jpg`)}></img>
       </div>
     )
   }

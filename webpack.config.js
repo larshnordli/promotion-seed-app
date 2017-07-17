@@ -24,10 +24,9 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       }, {
-        test: /\.(jpg|jpeg|gif|png)$/,
-        include: __dirname + '/src/media',
-        exclude: /node_modules/,
-        loader: 'url-loader?limit=1024&name=images/[name].[ext]'
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: 'file-loader?hash=sha512&digest=hex&name=[hash].[ext]!image-webpack-loader',
+        options: {bypassOnDebug:true, optimizationLevel:7, interlaced:false}
       }
     ]
   },
