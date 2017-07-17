@@ -28,7 +28,7 @@ export default class App extends React.Component {
                 return <TeamContainer key={i} team={s.team} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)} />
                 break;
               case "timeline":
-                return <TimelineContainer key={i} phases={s.phases}/>
+                return <TimelineContainer key={i} count={i} phases={s.phases}/>
                 break;
             }
           })

@@ -69,7 +69,7 @@ var sections = [
         ]
       }, {
         title: "Phase 2: 4 additional weeks",
-        phased: [
+        phase: [
           {
             title: "<strong>Week 5</strong> Virtual design thinking WS",
             description: "Online workshop with key stakeholders to align on scope for the second phase, and determine foucus areas."
