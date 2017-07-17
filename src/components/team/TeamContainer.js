@@ -1,11 +1,11 @@
 import React from 'react';
+import TeamMember from './TeamMember';
 
 export default class TeamContainer extends React.Component {
   renderTeamImage(url) {
     return require('../../media/images/team/' + url);
   }
   render() {
-    console.log(this.props.team);
     return (
       <div className="col-md-12">
         <h2>{this.props.headline}</h2>
@@ -16,12 +16,7 @@ export default class TeamContainer extends React.Component {
         <div className="team-members-container row ">
           {this.props.team.map((t, i) => {
             return (
-              <div className="team-member-item col-md-4">
-                <img className="img-responsive" src={this.renderTeamImage(t.image)}></img>
-                <p>{t.name}</p>
-                <p>{t.title}</p>
-
-              </div>
+              <TeamMember key={i} name={t.name} title={t.title} img={this.renderTeamImage(t.image)}/>
             )
           })}
         </div>
