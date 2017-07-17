@@ -80,6 +80,38 @@ var sections = [
         ]
       }
     ]
+  }, {
+    type: "tools",
+    headline: "tools",
+    text: " <strong>ACIT Cloud Studio's</strong> Prototype for Leonard Chesire Disability extended",
+    imageUrl: null,
+    tools: [
+      {
+        imageUrl: 'bluemix.png',
+        name: "IBM Bluemix",
+        link: "https://console.ng.bluemix.net/"
+      }, {
+        imageUrl: 'conversation.png',
+        name: "Conversation",
+        link: "https://www.ibm.com/watson/developercloud/conversation.html"
+      }, {
+        imageUrl: 'service-icon.png',
+        name: "Tone Analyzer",
+        link: "https://www.ibm.com/watson/developercloud/tone-analyzer.html"
+      }, {
+        imageUrl: 'text-to-speech.png',
+        name: "Text to Speech",
+        link: "https://www.ibm.com/watson/developercloud/text-to-speech.html"
+      }, {
+        imageUrl: 'speech-to-text.png',
+        name: "Speech to Text",
+        link: "https://www.ibm.com/watson/developercloud/speech-to-text.html"
+      }, {
+        imageUrl: 'watson.png',
+        name: "IBM Watson",
+        link: "https://www.ibm.com/watson/"
+      }
+    ]
   }
 ]
 
