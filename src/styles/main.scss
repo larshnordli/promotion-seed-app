@@ -1,9 +1,15 @@
 /*Main file that includes all components*/
 @import "bootstrap/bootstrap.scss";
 @import "components/team.scss";
-.img-responsive{
-  width:100%;
+
+.img-responsive {
+  width: 100%;
 }
-h1{
-    color: maroon;
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  color: maroon;
 }
