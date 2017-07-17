@@ -10,7 +10,7 @@ export default class ToolsContainer extends React.Component {
       <div className="row">
         {this.props.tools.map((tool, i) => {
           return (
-            <div className="col-md-2">
+            <div className="col-md-2 text-center">
             <a key={i} href={tool.link}>
               <img className="img-responsive" src={this.renderToolImage(tool.imageUrl)}></img>
               <p>{tool.name}</p>
