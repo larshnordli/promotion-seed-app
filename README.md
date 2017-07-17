@@ -13,7 +13,7 @@ Seed Application/Generator/Jumpstart Kit
 To build the project you can run `npm run build` in your CLI. The files will then output in build folder
 
 ## How to deploy to Bluemix
-Clik the "Deploy to Bluemix" button after your logged into Bluemix and navigated to the correct Region, Org and Space. This button will create a Delivery Pipeline and two runtime environments (see [Bluemix Integration ##Bluemix Integration])
+Clik the "Deploy to Bluemix" button after your logged into Bluemix and navigated to the correct Region, Org and Space. This button will create a Delivery Pipeline and two runtime environments (see [Bluemix Integration](##Bluemix Integration)).
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/devops/setup/deploy/?repository=https://github.com/larshnordli/promotion-seed-app)]
 
