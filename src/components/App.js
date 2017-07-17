@@ -4,6 +4,7 @@ import HeaderContainer from './header/HeaderContainer';
 import TeamContainer from './team/TeamContainer';
 import sections from '*/content/content-and-order';
 import TimelineContainer from './timeline/TimelineContainer';
+import ToolsContainer from './tools/ToolsContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -30,6 +31,8 @@ export default class App extends React.Component {
               case "timeline":
                 return <TimelineContainer key={i} count={i} phases={s.phases}/>
                 break;
+              case "tools":
+                return <ToolsContainer/>
             }
           })
 }
