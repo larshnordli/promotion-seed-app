@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '*/media/images/Cat.jpg';
 
 export default class HeaderContainer extends React.Component {
   render() {
