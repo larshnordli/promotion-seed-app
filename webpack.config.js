@@ -25,9 +25,13 @@ module.exports = {
         })
       }, {
         test: /\.(jpg|jpeg|gif|png)$/,
-        include: __dirname + '/src/media',
-        exclude: /node_modules/,
-        loader: 'url-loader?limit=1024&name=images/[name].[ext]'
+        // include: __dirname + '/src/media/',
+        // exclude: /node_modules/,
+        // loader: 'url-loader?limit=1024&name=images/[name].[ext]'
+        loader: 'file-loader',
+        options:{
+            name: __dirname + '/build/images/[hash].[ext]'
+        }
       }
     ]
   },
