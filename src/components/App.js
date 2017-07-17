@@ -32,7 +32,7 @@ export default class App extends React.Component {
                 return <TimelineContainer key={i} count={i} phases={s.phases}/>
                 break;
               case "tools":
-                return <ToolsContainer/>
+                return <ToolsContainer key={i} tools={s.tools}/>
             }
           })
 }
