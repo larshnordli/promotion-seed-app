@@ -11,8 +11,8 @@ export default class App extends React.Component {
       sections: sections
     }
   }
-  getImage(url){
-    return require('../media/images/'+url);
+  getImage(url) {
+    return require('../media/images/' + url);
   }
   render() {
     return (
@@ -20,11 +20,11 @@ export default class App extends React.Component {
         <div className="row">
           {this.state.sections.map((s, i) => {
             switch (s.type) {
-              case "header":
+              case "introSection":
                 return <HeaderContainer key={i} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
                 break;
-              case "introSection":
-                return <TeamContainer key={i} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
+              case "header":
+                return <TeamContainer key={i} team={s.team} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)} />
                 break;
             }
           })
