@@ -9,7 +9,7 @@ var sections = [
     type: "header",
     headline: "Nandini bjeff woff",
     text: " <strong>this is a big cat </strong>",
-    imageUrl: "media/images/200_s.gif"
+    imageUrl: "200_s.gif"
   }
 ]
 
