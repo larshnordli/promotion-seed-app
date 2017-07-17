@@ -1,9 +1,9 @@
 import React from 'react';
-
+import img from '*/media/images/Cat.jpg';
 
 export default class Header extends React.Component {
   render() {
-      const img = require('*/media/images/Cat.jpg');
+      //const img = require('*/media/images/Cat.jpg');
 
     return (
       <div className="col-md-6">
