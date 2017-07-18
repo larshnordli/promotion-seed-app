@@ -83,7 +83,7 @@ var sections = [
   }, {
     "type": "technologies",
     "headline": "Technologies",
-    "text": " <strong>ACIT Cloud Studio's</strong> Prototype for Leonard Chesire Disability extended",
+    "text": "Nandini leverages the IBM Bluemix Platform along with IBM Watson Conversation, Tone Analyzer, Text-to-Speech and Speech-to-Text services.",
     "imageUrl": null,
     "tools": [
       {
