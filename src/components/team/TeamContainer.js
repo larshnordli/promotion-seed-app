@@ -16,7 +16,7 @@ export default class TeamContainer extends React.Component {
         <div className="team-members-container row ">
           {this.props.team.map((t, i) => {
             return (
-              <TeamMember key={i} name={t.name} title={t.title} img={this.renderTeamImage(t.image)}/>
+              <TeamMember key={i} name={t.name} title={t.title} img={this.renderTeamImage(t.imageUrl)}/>
             )
           })}
         </div>
