@@ -14,39 +14,39 @@ var sections = [
       {
         "name": "Alba",
         "title": "UI designer",
-        "image": "alba.fernandez.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Christer",
         "title": "Prototype Lead",
-        "image": "christer.s.idland.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Jonny",
         "title": "Cloud Studio Lead",
-        "image": "jonny.mauland.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Kjetil",
         "title": "Prototype Lead",
-        "image": "kjetil.aamodt.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Lars Henrik",
         "title": "Front-end Developer",
-        "image": "lars.henrik.nordli.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Ruben",
         "title": "Front-end Developer",
-        "image": "ruben.gomez.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Siri",
         "title": "Analytics Specialist",
-        "image": "siri.oyen.larsen.png"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Tiril",
         "title": "UX Designer",
-        "image": "tiril.syversen_4.jpg"
+        "image": "alba.fernandez.png.jpg"
       }, {
         "name": "Umesh",
         "title": "UX Tester",
-        "image": "umesh.chowdaiah.png"
+        "image": "alba.fernandez.png.jpg"
 
       }
     ]
