@@ -116,7 +116,12 @@ var sections = [
     "type": "solution",
     "headline": "The Solution",
     "text": "We worked with Leonard Cheshire Disability (LCD) in an iterative design thinking approach over two 4-week phases to build a virtual registration assistant named Nandini, which supports job seekers with varied disabilities to digitally register themselves in an easy, engaging and accessible manner.",
-    "imageUrl": null
+    "imageUrl": null,
+    "imgSlide": [
+      "200_s.gif",
+      "Cat.jpg",
+      "maxresdefault.jpg"
+    ]
   }
 ]
 
