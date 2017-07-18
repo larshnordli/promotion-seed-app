@@ -3,6 +3,7 @@ Seed Application/Generator/Jumpstart Kit
 
 ## Prerequisites
 1. Make sure [NodeJS](https://nodejs.org/en/download/) is installed
+2. Basic [ReactJS](https://facebook.github.io/react/docs/hello-world.html) knowledge
 
 ## How to run project
 1. Clone this repository
