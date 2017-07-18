@@ -52,9 +52,6 @@ stages:
     stage: Build
     job: Build
     dir_name: null
-  triggers:
-  - type: stage
-    enabled: false
   jobs:
   - name: Deploy Prod
     type: deployer
@@ -65,7 +62,7 @@ stages:
       application: ${CF_APP_NAME}
     script: |
       #!/bin/bash
-      cf push "${CF_APP}" -b https://github.com/cloudfoundry-community/staticfile-buildpack.git 
+      cf push "${CF_APP}" -b https://github.com/cloudfoundry-community/staticfile-buildpack.git
 hooks:
 - enabled: true
   label: null
