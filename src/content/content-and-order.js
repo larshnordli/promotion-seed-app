@@ -81,8 +81,8 @@ var sections = [
       }
     ]
   }, {
-    "type": "tools",
-    "headline": "tools",
+    "type": "technologies",
+    "headline": "Technologies",
     "text": " <strong>ACIT Cloud Studio's</strong> Prototype for Leonard Chesire Disability extended",
     "imageUrl": null,
     "tools": [

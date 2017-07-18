@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ToolsContainer extends React.Component {
+export default class TechnologiesContainer extends React.Component {
 
   renderToolImage(url) {
     return require('../../media/images/tools/' + url);
