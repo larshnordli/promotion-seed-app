@@ -26,8 +26,8 @@ export default class App extends React.Component {
               case "introSection":
                 return <HeaderContainer key={i} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
                 break;
-              case "header":
-                return <TeamContainer key={i} team={s.team} headline={s.headline} text={s.text} imageUrl={this.getImage(s.imageUrl)}/>
+              case "team":
+                return <TeamContainer key={i} team={s.team} headline={s.headline} text={s.text} />
                 break;
               case "timeline":
                 return <TimelineContainer key={i} count={i} phases={s.phases}/>

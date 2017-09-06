@@ -12,7 +12,6 @@ export default class TeamContainer extends React.Component {
         <div dangerouslySetInnerHTML={{
           __html: this.props.text
         }}></div>
-        <img className="img-responsive" src={this.props.imageUrl}></img>
         <div className="team-members-container row ">
           {this.props.team.map((t, i) => {
             return (
