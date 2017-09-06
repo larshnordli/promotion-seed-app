@@ -6,10 +6,9 @@ var sections = [
     text: " <strong>ACIT Cloud Studio's</strong> Prototype for Leonard Chesire Disability extended",
     imageUrl: "maxresdefault.jpg"
   }, {
-    type: "header",
-    headline: "Nandini bjeff woff",
-    text: " <strong>this is a big cat </strong>",
-    imageUrl: "200_s.gif",
+    type: "team",
+    headline: "The Team",
+    text: " <strong>Team text </strong>",
     team: [
       {
         "name": "Alba",
