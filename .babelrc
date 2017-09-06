@@ -6,6 +6,10 @@
           "rootPathPrefix": "~"
         },
         {
+          "rootPathPrefix": "PLUGINS",
+          "rootPathSuffix": "node_modules"
+        },
+        {
           "rootPathPrefix": "*",
           "rootPathSuffix": "src"
         }
