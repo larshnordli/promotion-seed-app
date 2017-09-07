@@ -172,6 +172,31 @@ var sections = [
       }
 
     ]
+  }, {
+    "type": "contact",
+    "headline": "Contact us",
+    "items": [
+      {
+        "icon": "watson.png",
+        "text": "Send us email",
+        "link": "www.wikipedia.com"
+      },
+      {
+        "icon": "bluemix.png",
+        "text": "Visit our home",
+        "link": "www.wikipedia.com"
+      },
+      {
+        "icon": "speech-to-text.png",
+        "text": "About cloud studio",
+        "link": "www.wikipedia.com"
+      },
+      {
+        "icon": "conversation.png",
+        "text": "Demo catalog",
+        "link": "www.wikipedia.com"
+      }
+    ]
   }
 ]
 
