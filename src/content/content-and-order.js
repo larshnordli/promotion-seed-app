@@ -121,6 +121,27 @@ var sections = [
       "Cat.jpg",
       "maxresdefault.jpg"
     ]
+  }, {
+    "type": "testimonials",
+    "headline": "Testimonials",
+    "items": [
+      {
+        "backgroundImg": "maxresdefault.jpg",
+        "stakeholderImg": "alba.fernandez.png.jpg",
+        "stakeholderName": "Alessandra Furtado",
+        "stakeholderTitle": "assistant director informational resourcing & developement LCD",
+        "text": "This is description",
+        "logo": "bluemix.png"
+      },
+      {
+        "backgroundImg": "Cat.jpg",
+        "stakeholderImg": "alba.fernandez.png.jpg",
+        "stakeholderName": "Furtado Alessandra ",
+        "stakeholderTitle": "assistant director informational resourcing & developement LCD",
+        "text": "This is description",
+        "logo": "watson.png"
+      }
+    ]
   }
 ]
 

@@ -1,11 +1,13 @@
 import React from 'react';
 
+import sections from '*/content/content-and-order';
+
 import HeaderContainer from './header/HeaderContainer';
 import TeamContainer from './team/TeamContainer';
-import sections from '*/content/content-and-order';
 import TimelineContainer from './timeline/TimelineContainer';
 import TechnologiesContainer from './technologies/TechnologiesContainer';
 import SolutionContainer from './solution/SolutionContainer';
+import TestimonialContainer from './testimonial/TestimonialContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -36,6 +38,8 @@ export default class App extends React.Component {
                 return <TechnologiesContainer key={i} tools={s.tools} text={s.text}/>
               case "solution":
                 return <SolutionContainer key={i} headline={s.headline} text={s.text} imgSlide={s.imgSlide}/>
+              case "testimonials":
+                return <TestimonialContainer key={i} headline={s.headline} items={s.items}/>
             }
           })
 }
