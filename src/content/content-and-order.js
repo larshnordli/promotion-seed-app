@@ -142,6 +142,11 @@ var sections = [
         "logo": "watson.png"
       }
     ]
+  }, {
+    "type": "mvp",
+    "headline": "Mvp statement",
+    "text": "with <strong>guidance</strong> from a <strong>virtual assistant</strong>",
+    "backgroundImg": "Cat.jpg",
   }
 ]
 
