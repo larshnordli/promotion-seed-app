@@ -8,6 +8,7 @@ import TimelineContainer from './timeline/TimelineContainer';
 import TechnologiesContainer from './technologies/TechnologiesContainer';
 import SolutionContainer from './solution/SolutionContainer';
 import TestimonialContainer from './testimonial/TestimonialContainer';
+import MvpContainer from './mvp/MvpContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -40,6 +41,8 @@ export default class App extends React.Component {
                 return <SolutionContainer key={i} headline={s.headline} text={s.text} imgSlide={s.imgSlide}/>
               case "testimonials":
                 return <TestimonialContainer key={i} headline={s.headline} items={s.items}/>
+              case "mvp":
+                return <MvpContainer key={i} headline={s.headline} text={s.text} backgroundImg={s.backgroundImg}/>
             }
           })
 }
