@@ -4,7 +4,8 @@ import HeaderContainer from './header/HeaderContainer';
 import TeamContainer from './team/TeamContainer';
 import sections from '*/content/content-and-order';
 import TimelineContainer from './timeline/TimelineContainer';
-import ToolsContainer from './tools/ToolsContainer';
+import TechnologiesContainer from './technologies/TechnologiesContainer';
+import SolutionContainer from './solution/SolutionContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -31,8 +32,10 @@ export default class App extends React.Component {
               case "timeline":
                 return <TimelineContainer key={i} count={i} phases={s.phases}/>
                 break;
-              case "tools":
-                return <ToolsContainer key={i} tools={s.tools}/>
+              case "technologies":
+                return <TechnologiesContainer key={i} tools={s.tools} text={s.text}/>
+              case "solution":
+                return <SolutionContainer key={i} headline={s.headline} text={s.text} imgSlide={s.imgSlide}/>
             }
           })
 }
