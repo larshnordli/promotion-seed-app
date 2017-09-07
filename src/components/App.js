@@ -9,6 +9,7 @@ import TechnologiesContainer from './technologies/TechnologiesContainer';
 import SolutionContainer from './solution/SolutionContainer';
 import TestimonialContainer from './testimonial/TestimonialContainer';
 import MvpContainer from './mvp/MvpContainer';
+import FeaturesContainer from './features/FeaturesContainer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,8 @@ export default class App extends React.Component {
                 return <TestimonialContainer key={i} headline={s.headline} items={s.items}/>
               case "mvp":
                 return <MvpContainer key={i} headline={s.headline} text={s.text} backgroundImg={s.backgroundImg}/>
+              case "features":
+                return <FeaturesContainer key={i} items={s.items}/>
             }
           })
 }
