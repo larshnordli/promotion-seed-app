@@ -1,0 +1,45 @@
+{
+    "type": "team",
+    "headline": "The Team",
+    "text": " <strong>Team text </strong>",
+    "team": [
+      {
+        "name": "Alba",
+        "title": "UI designer",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Christer",
+        "title": "Prototype Lead",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Jonny",
+        "title": "Cloud Studio Lead",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Kjetil",
+        "title": "Prototype Lead",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Lars Henrik",
+        "title": "Front-end Developer",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Ruben",
+        "title": "Front-end Developer",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Siri",
+        "title": "Analytics Specialist",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Tiril",
+        "title": "UX Designer",
+        "imageUrl": "alba.fernandez.png.jpg"
+      }, {
+        "name": "Umesh",
+        "title": "UX Tester",
+        "imageUrl": "alba.fernandez.png.jpg"
+
+      }
+    ]
+  }
