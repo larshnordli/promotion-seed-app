@@ -1,0 +1,26 @@
+{
+    "type": "features",
+    "items": [
+      {
+        "headline": "guided <strong>Virtual Agent<strong/>",
+        "text": "Nandini is a virtual agent that guides you through six sections of questions",
+        "icon": "watson.png"
+      },
+      {
+        "headline": "Adaptive and natural <strong>Dialogue<strong/>",
+        "text": "Throughout the process, nandini provides multiple choice answer",
+        "icon": "bluemix.png"
+      },
+      {
+        "headline": "Low vision <strong>Accesibility<strong/>",
+        "text": "The entire solution is keyboard navigatable and WCAG 2.0 AA compliant",
+        "icon": "conversation.png"
+      },
+      {
+        "headline": "Audio <strong>Interface<strong/>",
+        "text": "Nandini supports speech-to-text",
+        "icon": "speech-to-text.png"
+      }
+
+    ]
+  }
