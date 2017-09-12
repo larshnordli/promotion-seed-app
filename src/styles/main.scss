@@ -1,6 +1,9 @@
 /*Main file that includes all components*/
-@import "bootstrap/bootstrap.scss";
-@import "components/team.scss";
+@import "../_customizer/ui-design";
+
+@import "vendor/bootstrap/bootstrap.scss";
+
+@import "settings/_settings.all";
 
 
 .img-responsive {

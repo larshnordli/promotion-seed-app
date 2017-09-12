@@ -1,0 +1,6 @@
+// Media Queries
+$media-xs: 'only screen and (min-width: #{$screen-xs-min})';
+$media-sm: 'only screen and (min-width: #{$screen-sm-min})';
+$media-md: 'only screen and (min-width: #{$screen-md-min})';
+$media-lg: 'only screen and (min-width: #{$screen-lg-min})';
+$media-xl: 'only screen and (min-width: #{$screen-xl-min})';
