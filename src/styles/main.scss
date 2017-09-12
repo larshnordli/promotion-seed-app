@@ -1,9 +1,24 @@
-/*Main file that includes all components*/
-@import "../_customizer/ui-design";
+// Vendors
 
 @import "vendor/bootstrap/bootstrap.scss";
 
-@import "settings/_settings.all";
+// Customized UI
+@import "../_customizer/ui-design";
+
+// Settings
+@import "settings/settings.all";
+
+// Global
+@import "global/global";
+
+// Components
+@import "components/components.all";
+
+// Layouts
+@import "layouts/layouts.all";
+
+// Hacks
+
 
 
 .img-responsive {
