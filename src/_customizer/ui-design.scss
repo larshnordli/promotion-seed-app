@@ -1,0 +1,85 @@
+/***************************/
+/*                         */
+/*      Customized UI      */
+/*                         */
+/***************************/
+
+
+/***************************/
+/*         FONTS           */
+/***************************/
+
+// Import your external fonts libraries
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+
+// Define font-family
+$font-family-primary: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family-alernative: 'Secular One', Helvetica, sans-serif;
+
+// Modify the global fontsize by increase/decrease the font-size ratio
+$fontSize-ratio: 1.2;
+
+
+/***************************/
+/*         SPACING         */
+/***************************/
+
+// Modify the global margin/padding by increase/decrease the spacing ratio
+$spacing--ratio: 1.414;
+
+
+/***************************/
+/*      MEDIA QUERIES      */
+/***************************/
+
+$screen-xs-min: 320px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 2000px;
+
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-sm-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+$screen-lg-max: ($screen-xl-min - 1);
+
+
+/***************************/
+/*      COLOR PALETTE      */
+/***************************/
+
+// Base // -d1 (darker) -d2 (darkest) -l1 (lighter) -l2 (lightest)
+$color-primary: #d9dbe4;
+$color-primary-d1: #9194a1;
+$color-primary-d2: #26262f;
+$color-primary-l1: #f3f4fb;
+$color-primary-l2: #fcfcfc;
+
+$color-secondary: #fe3c3c;
+$color-secondary-d1: #d13232;
+
+
+// Alternative color palette 1
+//$color-secondary: #63f1c1
+//$color-secondary-dark: #4ce1af;
+
+// Alternative color palette 2
+//$color-secondary: #fe9631;
+//$color-secondary-dark: #fe8713;
+
+
+// Neutral
+$color-white: #fff;
+$color-white-d1: #f4f4f4;
+$color-white-d2: #eaeaea;
+
+$color-black: #14141c;
+$color-black-l1: #232323;
+$color-black-l2: #4b4b4b;
+
+$color-green: #87e49e;
+$color-green-d1: #128d31;
+
+//default color
+$blue: blue;
